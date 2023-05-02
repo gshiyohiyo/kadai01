@@ -1,0 +1,21 @@
+.zyanken {
+    font-size: 64px;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.result{
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+.item{
+    align-items: center;
+}
