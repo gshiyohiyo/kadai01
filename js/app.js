@@ -10,7 +10,7 @@ $("#gu").on('click', function(){
     if(random == 1)
     {
         $("#cpu").html("✊");
-        $("#result").html("あいこ");
+        $("#result").html("あいこ😟");
         $("#shizuku").attr("src","images/" + shizuku + "/draw-200.png");
     }
     else if(random == 2)
@@ -44,7 +44,7 @@ $("#choki").on('click', function(){
     else if(random == 2)
     {
         $("#cpu").html("✌️");
-        $("#result").html("あいこ");
+        $("#result").html("あいこ😟");
         $("#shizuku").attr("src","images/" + shizuku + "/draw-200.png");
     }
     else if(random == 3)
@@ -78,7 +78,7 @@ $("#pa").on('click', function(){
     else if(random == 3)
     {
         $("#cpu").html("✋");
-        $("#result").html("あいこ");
+        $("#result").html("あいこ😟");
         $("#shizuku").attr("src","images/" + shizuku + "/draw-200.png");
     }
 
@@ -88,20 +88,20 @@ $("#pa").on('click', function(){
 $("#original").on('click', function(){
     shizuku = "original";
     $("#result").html("　　　　");
-    $("#cpu").html("🔸");
+    $("#cpu").html("😊");
     $("#shizuku").attr("src","images/" + shizuku + "/normal-200.png");
 })
 
 $("#idol").on('click', function(){
     shizuku = "idol";
     $("#result").html("　　　　");
-    $("#cpu").html("🔸");
+    $("#cpu").html("😊");
     $("#shizuku").attr("src","images/" + shizuku + "/normal-200.png");
 });
 
 $("#miko").on('click', function(){
     shizuku = "miko";
     $("#result").html("　　　　");
-    $("#cpu").html("🔸");
+    $("#cpu").html("😊");
     $("#shizuku").attr("src","images/" + shizuku + "/normal-200.png");
 });

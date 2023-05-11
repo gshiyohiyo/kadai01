@@ -1,5 +1,6 @@
 .zyanken {
     font-size: 64px;
+    font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;
 }
 
 .container{
@@ -11,6 +12,7 @@
 }
 
 .result{
+    height: 64px;
     font-size: 48px;
     margin: 0;
     text-align: center;
